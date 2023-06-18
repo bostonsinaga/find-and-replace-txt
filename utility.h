@@ -10,7 +10,7 @@ std::string readFile(std::string &fileDirIn) {
     }
 
     if (text == "") {
-        std::cerr << "File is empty\n";
+        std::cerr << "File is empty or doesn't exist\n";
     }
 
     fileIn.close();
